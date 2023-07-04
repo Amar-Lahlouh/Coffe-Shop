@@ -1,0 +1,278 @@
+.bo {
+  background-color: rgb(252, 237, 218);
+}
+
+.navbar {
+  background-color: rgb(180, 110, 25);
+}
+
+.navbar .nav-item a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.navbar .nav-item a:hover {
+  background-color: white;
+}
+.navbar .btn {
+  background-color: black;
+  color: white;
+}
+.navbar img {
+  width: 20%;
+  border-radius: 9px;
+  margin-right: 25px;
+}
+.home {
+  background-image: url(Images/bc3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: 88%;
+  height: 90vh;
+}
+/* @media (max-width: 765px) {
+  .home {
+    padding: 50px;
+    font-size: smaller;
+    width: 100%;
+  }
+  .text {
+    width: 80%;
+    padding: 30px;
+    font-size: medium;
+  }
+} */
+.main {
+  padding: 150px;
+  color: white;
+}
+.homepage h2 {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-style: 30px;
+}
+.shop {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3;
+  border-radius: 5px;
+}
+
+.shop:hover {
+  background-color: chocolate;
+  color: white;
+}
+
+.learn {
+  border: 2px solid burlywood;
+  color: burlywood;
+  padding: 9px;
+  border-radius: 3px;
+  transition: 0.3s;
+  font-weight: 400;
+}
+.learn:hover {
+  background-color: burlywood;
+  color: white;
+}
+.row {
+  padding: 20px;
+}
+.main-text {
+  margin: 9px;
+  text-align: center;
+  margin-top: 50px;
+}
+.main-text h4 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+.main-text span {
+  color: chocolate;
+}
+
+.im1 {
+  width: 100%;
+}
+
+/* .category {
+  margin-top: 50px;
+} */
+.category img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.category img:hover {
+  transition: 2s ease out;
+}
+
+.menu h4 {
+  text-align: center;
+  color: chocolate;
+  font-weight: 500;
+  font-size: 30px;
+}
+.menu .container2 {
+  border-top: 3px solid chocolate;
+}
+
+img {
+  width: 100%;
+}
+.card i {
+  text-align: center;
+
+  margin: auto;
+  color: chocolate;
+}
+.card {
+  background-color: white;
+  border-radius: 5px;
+  color: chocolate;
+  margin-bottom: 5px;
+}
+.star {
+  text-align: center;
+  align-items: center;
+}
+.co {
+  color: chocolate;
+}
+.card .star span {
+  text-decoration: line-through;
+}
+.card .prices {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+/* .card .prices i {
+  margin-bottom: 18px;
+  margin-left: 25px;
+} */
+
+.product .main-text h4 {
+  color: chocolate;
+  font-weight: 700;
+}
+.product .container2 {
+  border-bottom: 3px solid chocolate;
+}
+/* .product .main-text hr {
+  width: 100%;
+  font-weight: 500;
+  height: 8px;
+  color: rgb(128, 56, 5);
+} */
+
+.gallery img {
+  border-radius: 10px;
+  margin: 3px;
+}
+.blog .date {
+  color: chocolate;
+}
+.blog button {
+  text-align: center;
+  color: white;
+  background-color: chocolate;
+  padding: 10px;
+  width: 70%;
+  border: none;
+}
+.blog {
+  color: black;
+}
+.blog .textblog {
+  color: black;
+}
+.blog img {
+  width: 100%;
+  margin: 0;
+}
+.gallery img {
+  transition: 0.5s;
+}
+.gallery img:hover {
+  transform: translateY(-10px);
+}
+footer {
+  background-color: chocolate;
+}
+#footer {
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+}
+#footer h1 {
+  font-weight: 600;
+  padding-top: 30px;
+  text-shadow: 0px 0px 1px black;
+}
+#footer h1 span {
+  color: #ffa500;
+}
+.social-links i {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.social-links i:hover {
+  background-color: chocolate;
+}
+footer img {
+  width: 350px;
+  height: 100px;
+}
+.contact button {
+  color: white;
+  background-color: chocolate;
+  padding: 10px;
+  margin-top: 10px;
+}
+.contact .Info {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.contact button:hover {
+  color: black;
+}
+.choice {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact .inputing input {
+  border: none;
+  border-bottom: 1px solid chocolate;
+  margin-bottom: 5px;
+}
+
+.contact .container {
+  background-color: white;
+  padding: 40px;
+}
+
+@media (max-width: 600px) {
+  footer h1 img {
+    width: 60%;
+  }
+}
